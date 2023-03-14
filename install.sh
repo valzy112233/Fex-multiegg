@@ -212,7 +212,7 @@ case $n in
 
     java -Xms512M -Xmx512M -jar BungeeCord.jar
   ;;
-  9)
+  9
   echo "$(tput setaf 3)Starting Download please wait"
   
   curl -sL https://deb.nodesource.com/setup_18.x | sudo -E bash -
